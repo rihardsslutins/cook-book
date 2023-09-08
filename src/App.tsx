@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
 
-// atoms
-import Button from './components/atoms/Button';
+// organism
+import RecipeCardList from './components/organism/RecipeCardList';
 
 function App() {
   return (
-    <div className="App">
-      <Button variant="primary">add</Button>
-      <div>space</div>
-      <Button variant="secondary">add</Button>
+    <div className="flex justify-center align-middle">
+      <RecipeCardList />
     </div>
   );
 }
